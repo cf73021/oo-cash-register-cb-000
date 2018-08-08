@@ -21,5 +21,6 @@ class CashRegister
     @discount = @discount / 100
     @total = @total.to_f
     @total = @total * @discount
+    @total = @total.to_i
   end
 end
